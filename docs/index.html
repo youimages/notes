@@ -19,9 +19,27 @@
         '/.*/_sidebar.md': '/_sidebar.md'
       },
 	  subMaxLevel: 3,
-	  coverpage: true
+	  coverpage: true，
+	  search: {
+		  maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+		  paths: [], // or 'auto'
+		  placeholder: '搜索',
+
+		  // 支持本地化
+		  placeholder: {
+			'/': '搜索'
+		  },
+
+		  // 支持本地化
+		  noData: {
+			'/': '找不到结果'
+		  },
+		  // 搜索标题的最大程级, 1 - 6
+		  depth: 3
+	   }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
 </body>
 </html>
