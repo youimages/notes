@@ -1,2 +1,2 @@
-* [Vue](/vue/index)
+* [指南](/指南)
 * [Node](/node)
