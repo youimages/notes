@@ -1,2 +1,2 @@
-* [Vue](/vue)
+* [Vue](/vue/index)
 * [Node](/node)
