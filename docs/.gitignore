@@ -6,7 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 yarn.lock
-dist.rar
 
 # Editor directories and files
 .idea
@@ -19,11 +18,3 @@ dist.rar
 *.sln
 *.bak
 *.project
-*.rej
-
-# Develop files
-layout_bak/
-*.bak.vue
-*.1.vue
-*.2.vue
-*.3.vue
