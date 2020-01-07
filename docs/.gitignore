@@ -1,0 +1,29 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+dist.rar
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.rar
+*.zip
+*.ntvs*
+*.njsproj
+*.sln
+*.bak
+*.project
+*.rej
+
+# Develop files
+layout_bak/
+*.bak.vue
+*.1.vue
+*.2.vue
+*.3.vue
